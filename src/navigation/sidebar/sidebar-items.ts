@@ -47,10 +47,10 @@ export interface NavGroup {
 export const sidebarItems: NavGroup[] = [
   {
     id: 1,
-    label: "Dashboards",
+    label: "Дашборды",
     items: [
       {
-        title: "Default",
+        title: "По умолчанию",
         url: "/dashboard/default",
         icon: LayoutDashboard,
       },
@@ -60,33 +60,33 @@ export const sidebarItems: NavGroup[] = [
         icon: ChartBar,
       },
       {
-        title: "Finance",
+        title: "Финансы",
         url: "/dashboard/finance",
         icon: Banknote,
       },
       {
-        title: "Analytics",
+        title: "Аналитика",
         url: "/dashboard/analytics",
         icon: Gauge,
       },
       {
-        title: "Productivity",
+        title: "Продуктивность",
         url: "/dashboard/productivity",
         icon: ListTodo,
       },
       {
-        title: "E-commerce",
+        title: "Электронная торговля",
         url: "/dashboard/ecommerce",
         icon: ShoppingBag,
       },
       {
-        title: "Academy",
+        title: "Академия",
         url: "/dashboard/academy",
         icon: GraduationCap,
         isNew: true,
       },
       {
-        title: "Logistics",
+        title: "Логистика",
         url: "/dashboard/logistics",
         icon: Forklift,
       },
@@ -94,82 +94,82 @@ export const sidebarItems: NavGroup[] = [
   },
   {
     id: 2,
-    label: "Pages",
+    label: "Страницы",
     items: [
       {
-        title: "Email",
+        title: "Почта",
         url: "/dashboard/mail",
         icon: Mail,
       },
       {
-        title: "Chat",
+        title: "Чат",
         url: "/dashboard/coming-soon",
         icon: MessageSquare,
         comingSoon: true,
       },
       {
-        title: "Calendar",
+        title: "Календарь",
         url: "/dashboard/coming-soon",
         icon: Calendar,
         comingSoon: true,
       },
       {
-        title: "Kanban",
+        title: "Канбан",
         url: "/dashboard/coming-soon",
         icon: Kanban,
         comingSoon: true,
       },
       {
-        title: "Invoice",
+        title: "Счета",
         url: "/dashboard/coming-soon",
         icon: ReceiptText,
         comingSoon: true,
       },
       {
-        title: "Users",
+        title: "Пользователи",
         url: "/dashboard/users",
         icon: Users,
       },
       {
-        title: "Roles",
+        title: "Роли",
         url: "/dashboard/roles",
         icon: Lock,
       },
       {
-        title: "Authentication",
+        title: "Аутентификация",
         url: "/auth",
         icon: Fingerprint,
         subItems: [
-          { title: "Login v1", url: "/auth/v1/login", newTab: true },
-          { title: "Login v2", url: "/auth/v2/login", newTab: true },
-          { title: "Register v1", url: "/auth/v1/register", newTab: true },
-          { title: "Register v2", url: "/auth/v2/register", newTab: true },
+          { title: "Вход v1", url: "/auth/v1/login", newTab: true },
+          { title: "Вход v2", url: "/auth/v2/login", newTab: true },
+          { title: "Регистрация v1", url: "/auth/v1/register", newTab: true },
+          { title: "Регистрация v2", url: "/auth/v2/register", newTab: true },
         ],
       },
     ],
   },
   {
     id: 3,
-    label: "Legacy",
+    label: "Устаревшие",
     items: [
       {
         title: "Dashboards",
         url: "/dashboard/default-v1",
         subItems: [
-          { title: "Default V1", url: "/dashboard/default-v1" },
+          { title: "По умолчанию V1", url: "/dashboard/default-v1" },
           { title: "CRM V1", url: "/dashboard/crm-v1" },
-          { title: "Finance V1", url: "/dashboard/finance-v1" },
-          { title: "Analytics V1", url: "/dashboard/analytics-v1" },
+          { title: "Финансы V1", url: "/dashboard/finance-v1" },
+          { title: "Аналитика V1", url: "/dashboard/analytics-v1" },
         ],
       },
     ],
   },
   {
     id: 4,
-    label: "Misc",
+    label: "Разное",
     items: [
       {
-        title: "Others",
+        title: "Прочее",
         url: "/dashboard/coming-soon",
         icon: SquareArrowUpRight,
         comingSoon: true,
